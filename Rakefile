@@ -18,12 +18,8 @@ begin
     gem.homepage        = "http://github.com/capistrano/capistrano"
     gem.email           = [ "jamis@jamisbuck.org", "lee.hambley@gmail.com" ]
     gem.authors         = [ "Jamis Buck", "Lee Hambley" ]
-    gem.add_dependency  "net-ssh",          ">=2.0.14"
-    gem.add_dependency  "net-sftp",         ">=2.0.0"
-    gem.add_dependency  "net-scp",          ">=1.0.0"
-    gem.add_dependency  "net-ssh-gateway",  ">=1.0.0"
-    gem.add_dependency  "highline"
-    gem.add_development_dependency "mocha", ">= 0"
+    
+    # dependencies defined in Gemfile
   end
 rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
